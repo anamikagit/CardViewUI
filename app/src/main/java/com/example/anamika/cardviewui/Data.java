@@ -2,9 +2,12 @@ package com.example.anamika.cardviewui;
 
 public class Data {
 
-    private final String label;
-    private final String display;
-    private final int imageResource;
+    private String label;
+    private String display;
+    private int imageResource;
+
+    public Data() {
+    }
 
     public Data(String label, String display, int imageResource)
     {
