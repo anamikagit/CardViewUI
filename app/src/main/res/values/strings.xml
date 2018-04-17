@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CardViewUI</string>
+    <string-array name="tv_label">
+        <item>bb</item>
+        <item>hh</item>
+        <item>ee</item>
+        <item>kk</item>
+    </string-array>
+
+    <string-array name="tv_display">
+        <item>s</item>
+        <item>t</item>
+        <item>v</item>
+        <item>u</item>
+    </string-array>
+
+    <array name="card_images">
+        <item>@drawable/image</item>
+        <item>@drawable/image</item>
+        <item>@drawable/image</item>
+        <item>@drawable/image</item>
+    </array>
+</resources>
