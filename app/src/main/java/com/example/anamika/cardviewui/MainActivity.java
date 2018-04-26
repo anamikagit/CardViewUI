@@ -86,12 +86,13 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.image,
                 R.drawable.image,
                 R.drawable.image,
+               /* R.drawable.image,
                 R.drawable.image,
                 R.drawable.image,
                 R.drawable.image,
                 R.drawable.image,
-                R.drawable.image,
-                R.drawable.image,};
+                R.drawable.image,*/
+        };
 
         Data a = new Data("True Romance", "gg", covers[0]);
         dataList.add(a);
@@ -105,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         a = new Data("Born to Die", "j", covers[3]);
         dataList.add(a);
 
-        a = new Data("Honeymoon", "er", covers[4]);
+/*        a = new Data("Honeymoon", "er", covers[4]);
         dataList.add(a);
 
         a = new Data("I Need a Doctor", "sd", covers[5]);
@@ -121,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
         dataList.add(a);
 
         a = new Data("Greatest Hits", "sx", covers[9]);
-        dataList.add(a);
+        dataList.add(a);*/
 
         gridCardAdapter.notifyDataSetChanged();
     }
