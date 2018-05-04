@@ -30,8 +30,8 @@ public class SplashActivity extends AppCompatActivity {
             }
         }, SPLASH_DISPLAY_LENGTH);
     }
-    ApiInterface apiService =
-            ApiClient.getClient().create(ApiInterface.class);
+   /* ApiInterface apiService =
+            ApiClient.getClient().create(ApiInterface.class);*/
 
 
 
