@@ -13,7 +13,7 @@ TextView textView;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        edtPwd = findViewById(R.id.editTextPwd);
-        textView = findViewById(R.id.textViewText);
+        edtPwd = findViewById(R.id.edtPwd);
+        textView = findViewById(R.id.tvLoginId);
     }
 }
