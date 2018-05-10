@@ -30,7 +30,7 @@
             android:textColor="@color/colorPrimaryDark"
             android:theme="@style/ThemeOverlay.AppCompat.Dark" />
 
-        <TextView
+      <!--  <TextView
             android:id="@+id/tv_display"
             style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="150dp"
@@ -39,6 +39,6 @@
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="72dp"
             android:padding="@dimen/card_margin"
-            android:textColor="@color/colorPrimaryDark" />
+            android:textColor="@color/colorPrimaryDark" />-->
     </RelativeLayout>
 </android.support.v7.widget.CardView>

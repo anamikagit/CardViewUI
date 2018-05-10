@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">CardViewUI</string>
     <string name="login_uid">Enter Your ID</string>
-    <string name="backdrop_title">LOVE MUSIC</string>
-    <string name="backdrop_subtitle">This season top 20 albums</string>
+    <string name="backdrop_title">Guard Panel</string>
+    <string name="backdrop_subtitle">Beware! you are under surveillance</string>
     <string-array name="tv_label">
         <item>bb</item>
         <item>hh</item>

@@ -82,10 +82,10 @@ public class MainActivity extends AppCompatActivity {
     }
     private void prepareCards() {
         int[] covers = new int[]{
-                R.drawable.image,
-                R.drawable.image,
-                R.drawable.image,
-                R.drawable.image,
+                R.drawable.in_time,
+                R.drawable.in_time,
+                R.drawable.locate_me,
+                R.drawable.surveillance,
                /* R.drawable.image,
                 R.drawable.image,
                 R.drawable.image,
@@ -94,16 +94,16 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.image,*/
         };
 
-        Data a = new Data("True Romance", "gg", covers[0]);
+        Data a = new Data("In Time", "", covers[0]);
         dataList.add(a);
 
-        a = new Data("Xscpae", "hh", covers[1]);
+        a = new Data("Out Time", "", covers[1]);
         dataList.add(a);
 
-        a = new Data("Maroon 5", "ygh", covers[2]);
+        a = new Data("Locate Me", "", covers[2]);
         dataList.add(a);
 
-        a = new Data("Born to Die", "j", covers[3]);
+        a = new Data("Send My Status", "", covers[3]);
         dataList.add(a);
 
 /*        a = new Data("Honeymoon", "er", covers[4]);
