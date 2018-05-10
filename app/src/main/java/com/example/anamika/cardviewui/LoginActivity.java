@@ -7,22 +7,19 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
-EditText edtPwd;
-TextView textView;
+
+    @butterknife.BindView(R.id.edtPwd) EditText edtPwd;
+    @butterknife.BindView(R.id.tvLoginId) TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        edtPwd = findViewById(R.id.edtPwd);
-        textView = findViewById(R.id.tvLoginId);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
-      //toolbar.setTitle(R.string.app_name);
-//        toolbar.setTitle("Guard Monitor");
+
+        butterknife.ButterKnife.bind(this);
         setSupportActionBar(toolbar);
-        //toolbar.setTitle("GRD");
-       
+
     }
 }
