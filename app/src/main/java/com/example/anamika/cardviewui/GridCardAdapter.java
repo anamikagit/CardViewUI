@@ -28,7 +28,7 @@ public class GridCardAdapter extends RecyclerView.Adapter<GridCardAdapter.MyView
 
         public MyViewHolder(View itemView) {
             super(itemView);
-            tvDisplay = itemView.findViewById(R.id.tv_display);
+            //tvDisplay = itemView.findViewById(R.id.tv_display);
             tvLabel = itemView.findViewById(R.id.tv_label);
             cardImage = itemView.findViewById(R.id.card_image);
         }
@@ -44,7 +44,7 @@ public class GridCardAdapter extends RecyclerView.Adapter<GridCardAdapter.MyView
     public void onBindViewHolder(GridCardAdapter.MyViewHolder holder, int position) {
         Data data = dataList.get(position);
         holder.tvLabel.setText(data.getLabel());
-        holder.tvDisplay.setText(data.getDisplay());
+        //holder.tvDisplay.setText(data.getDisplay());
 
         Glide.with(mContext).load(data.getImageResource()).into(holder.cardImage);
     }

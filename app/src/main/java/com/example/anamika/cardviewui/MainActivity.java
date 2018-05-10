@@ -94,16 +94,16 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.image,*/
         };
 
-        Data a = new Data("In Time", "", covers[0]);
+        Data a = new Data("In Time", "h", covers[0]);
         dataList.add(a);
 
-        a = new Data("Out Time", "", covers[1]);
+        a = new Data("Out Time", "j", covers[1]);
         dataList.add(a);
 
-        a = new Data("Locate Me", "", covers[2]);
+        a = new Data("Locate Me", "m", covers[2]);
         dataList.add(a);
 
-        a = new Data("Send My Status", "", covers[3]);
+        a = new Data("Send My Status", "z", covers[3]);
         dataList.add(a);
 
 /*        a = new Data("Honeymoon", "er", covers[4]);
