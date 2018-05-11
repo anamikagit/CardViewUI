@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/cctv2"
+    android:scaleType="fitCenter"
+    >
+    <include android:id="@+id/myToolbar"
+        layout="@layout/toolbar_layout"/>
+    <TextView
+        android:id="@+id/tvLoginId"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="230dp"
+        android:layout_marginStart="18dp"
+        android:textColor="@color/viewBg"
+        android:textSize="20dp"
+        android:text="@string/login_uid" />
+
+    <EditText
+        android:id="@+id/edtPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tvLoginId"
+        android:layout_marginBottom="150dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:text="Log In" />
+</RelativeLayout>
